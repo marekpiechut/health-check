@@ -1,0 +1,3 @@
+*/2 * * * * /bin/bash /root/health-checks/health-check.sh
+16  8 * * * /bin/bash /root/health-checks/health-check.sh report
+0		0	*	*	*	/usr/sbin/logrotate /root/health-checks/logrotate.conf
